@@ -1,0 +1,6 @@
+@media handheld, screen and (max-width: 800px) {
+    .first_section, .second_section, .third_section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
