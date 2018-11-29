@@ -17,48 +17,17 @@ title: "Andrew Bruce"
     <body>
         <div class="container-fluid">
             <div class="row">
-                <nav>
-                    <div class="col-md-10 offset-md-1">
-                        <a href="https://github.com/abruce1711" target="_none"><img src="../img/github.png"></a>
-                        <a href="https://www.linkedin.com/in/andrew-bruce-developer/" target="_none"><img src="../img/linkedin.png"></a>
-                    </div>       
-                </nav>        
-                <div class="first_section">
-                    <div class="col-md-4 offset-md-4">
-                        <div class="first_section_content">
-                            <img class="profile_image" src="../img/me.jpg">
-                            <h1 class="name">{{ site.data.me[0].name }}</h2>
-                            <div class="name_underline mx-auto"></div>
-                            <h4 >{{ site.data.me[0].occupation }}</h4>
-                            <h5>at</h5>
-                            <h4>{{ site.data.me[0].establishment }}</h4>
-                        </div> 
-                    </div>
-                </div>
+                {% include nav.html %}
+
+                {% include first_section.html %}
             </div>
 
             <div class="row">
-                <div class="second_section">
-                    <div class="col-md-4 offset-md-4">
-                        <div class="second_section_content">
-                            <h2 class="about_me_heading">About Me</h2>
-                            <div class="about_me_underline mx-auto"></div>
-                            <p class="about_me">{{ site.data.me[0].about }}</p>
-                        </div>
-                    </div>
-                </div>
+                {% include second_section.html %}
             </div>
 
             <div class="row">
-                <div class="third_section">
-                    <div class="col-md-6 offset-md-3">
-                        <div class="third_section_content">
-                            <h2 class="contact_heading">Get in touch</h2>
-                            <div class="contact_underline mx-auto"></div>
-                            {% include contact_form.html %}
-                        </div>
-                    </div>
-                </div>
+                {% include third_section.html %}
             </div>
         </div>
         <script src="../js/scripts.js" ></script>

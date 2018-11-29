@@ -1,0 +1,21 @@
+<div class="second_section">
+        <div class="col-md-4 offset-md-1 float-left">
+            <div class="second_section_content">
+                <h2 class="second_section_heading">About Me</h2>
+                <div class="second_section_underline mx-auto"></div>
+                <p class="about_me">{{ site.data.me[0].about }}</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-right-1 float-right">
+            <div class="second_section_content_right">
+                <h2 class="second_section_heading">Skills</h2>
+                <div class="second_section_underline mx-auto"></div>
+                <ul class="skills">
+                    {% for skill in site.data.skills %}
+                        <li>{{skill}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+</div>
