@@ -1,71 +1,75 @@
+$site_colour: #18bc9c;
+
 nav {
   background-color: var(--site_colour) !important;
   width: 100%;
   position: fixed;
   z-index: 5;
-  padding: 5px; }
+  padding: 5px;
+}
 
 nav img {
   height: 40px;
   transition: .2s all;
-  margin-left: 5px; }
+  margin-left: 5px;
+}
 
 nav img:hover {
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .first_section {
-  background-color: #18bc9c;
+  background-color: $site_colour;
   width: 100%;
   padding: 30px;
   color: white;
-  text-align: center; }
+  text-align: center;
+}
 
 .profile_image {
   height: 40%;
   width: auto;
   border-radius: 5px;
   border: 1px solid;
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
-.name {
-  margin-top: 25px; }
+.name {margin-top: 25px;}
 
 .name_underline {
   height: 3px;
   width: 300px;
   background: white;
-  margin: 10px 0 10px 0; }
+  margin: 10px 0 10px 0;
+}
 
 .second_section {
   width: 100%;
   padding: 80px;
-  color: #2c3e50; }
+  color: #2c3e50;
+}
 
-.second_section_heading {
-  text-align: center; }
-
+.second_section_heading {text-align: center}
 .second_section_underline {
   height: 3px;
   width: 150px;
   background: #2c3e50;
-  margin: 10px 0 20px 0; }
-
-.about_me {
-  text-align: justify;
-  font-size: 19px; }
-
-.skills {
-  font-size: 19px; }
+  margin: 10px 0 20px 0;
+}
+.about_me {text-align: justify; font-size: 19px;}
+.skills {font-size: 19px;}
 
 .third_section {
   background-color: #e9ebee;
   width: 100%;
   padding: 30px;
-  color: #2c3e50; }
+  color: #2c3e50;
+}
 
 label {
   margin-top: 20px;
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 .contact_form input, .contact_form textarea {
   width: 100%;
@@ -73,33 +77,34 @@ label {
   outline: none;
   height: 70px;
   font-size: 30px;
-  background: white; }
+  background: white;
+}
 
 .contact_form textarea {
   height: 140px;
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 .contact_form button {
   border: none;
   width: 150px;
   height: 50px;
-  background: #18bc9c;
+  background: $site_colour;
   color: white;
   margin: 10px auto;
-  display: block; }
+  display: block;
+}
 
-.contact_heading {
-  text-align: center; }
-
+.contact_heading {text-align: center;}
 .contact_underline {
   height: 3px;
   width: 200px;
   background: #2c3e50;
-  margin: 10px 0 15px 0; }
+  margin: 10px 0 15px 0;
+}
 
 .pop_up_confirm {
-  background: #18bc9c;
+  background: $site_colour;
   color: white;
-  font-size: 10px !important; }
-
-/*# sourceMappingURL=style.css.map */
+  font-size: 10px !important;
+}
