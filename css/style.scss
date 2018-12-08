@@ -1,7 +1,7 @@
 $site_colour: #18bc9c;
 
 nav {
-  background-color: v$site_colour !important;
+  background-color: $site_colour !important;
   width: 100%;
   position: fixed;
   z-index: 5;
