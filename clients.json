@@ -1,0 +1,14 @@
+[
+	{
+	"name":"Rettie",
+	"sites":[ "Wemyss Place", "Jamaice Street", "Bearsden" ]
+	},
+	{
+	"name":"TC Young",
+	"sites":["Ednburgh", "Glasgow"]
+	},
+	{
+	"name": "Vetpartners",
+	"sites": ["Site 1", "Site 2", "Site 3"]
+	}
+]
