@@ -1,6 +1,5 @@
 - name: "Andrew Bruce"
-  about: "Currently employed as a Software Engineer at Network ROI having graduated from University in August 2020 with a First Class Honours degree in Software Engineering.
-  At present I design, test, and implement bespoke solutions to internal problems within the company. I use largely C# and .NET to do this creating a variety of mobile and web applications,
-  but also use Python and run database queries in SQL where applicable."
+  about: "Currently employed as a Software Engineer at Clearsky Logic having graduated from University in August 2020 with a First Class Honours degree in Software Engineering.
+  I help design and implement web platform solutions for external clients, I do this largely using C# and .Net Core with plenty of Javascript and SQL."
   occupation: "Software Engineer"
-  establishment: "Network ROI Ltd"
+  establishment: "Clearsky Logic"
